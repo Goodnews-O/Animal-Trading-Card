@@ -1,0 +1,42 @@
+/* Box Dimensions/Properties */
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.introduction{font-size: 1.3rem}
+.trading-card {
+    width: 30%;
+    border: 1px solid #DCDCDC;
+    box-shadow: 6px 6px 1px 0px #EBEBEB;
+    padding-right: .2em;
+    padding-left: .7em;
+    padding-bottom: .6em;
+    margin: 5rem 8rem 5rem;
+    align-items: center;
+  }
+  
+  .info-box {
+    width: 283px;
+    border:  #DCDCDC;
+    padding-right: .5em;
+    padding-left: .5em;
+  }
+  
+  /* Image */
+  .animalPicture {
+    width: 100%;
+    height: 200px;
+  }
+  
+  /* Interesting Fact */
+  .funfact {
+    font-style: italic;
+  }
+  
+  /* List Information */
+  .list-info{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  span {
+    font-weight: bold;
+  }
