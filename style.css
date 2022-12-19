@@ -2,19 +2,16 @@
 *{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 0;
-  margin: 0;  
+  margin: 0;
+  
 }
+body{background-color: #f9f9f9}
 
-body{
-  background-color: #f9f9f9
-}
-
-.trading-card 
-  {width: 350px;
+.trading-card {width: 350px;
   border: 12px solid rgb(246, 138, 5);
   box-shadow: 0px 0px 30px black;
-  padding: 0 2rem 2rem 2rem;
-  margin: 20px 0 20px 800px;
+ padding: 0 2rem 2rem 2rem;
+  margin: 20px auto;
   background-image: url("floralpattern2.png");
 }
 
@@ -23,13 +20,11 @@ h1{
   margin: 30px 0 20px 0;
   color: orange;
 }
-
 .introduction{
   font-size: 1.3rem;
   margin: 0px 0 45px 0;
   line-height: 30px;
 }
-
 .trading-card hr{
   margin: 25px 0 15px;
 }
@@ -37,7 +32,7 @@ h1{
  /* Image */
  .animalPicture {
   width: 350px;
-  height: 450px; 
+  height: 250px; 
   margin-bottom: 50px;
 }
 
@@ -60,7 +55,7 @@ h1{
     font-style: italic;
     font-size: 1.2rem;
     line-height: 1.8rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
   
   h4{font-style: italic;
